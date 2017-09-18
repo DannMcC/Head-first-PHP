@@ -16,7 +16,7 @@
 
         $msg = "Dear $first_name $last_name, \n $text";
         $to = $row['email'];
-        mail($to, $subject, $msg, 'From:' . $from);
-        echo 'Email sent to: '.$to .'<br />';
+        mail($to, $subject, $msg, 'From:'.$from);
+        echo 'Email sent to: '.$to. '<br />';
     }
     mysqli_close($dbc);
