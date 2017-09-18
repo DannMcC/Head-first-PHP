@@ -17,4 +17,3 @@
     echo 'Customer Added';
 
     mysqli_close($dbc);
-?>
